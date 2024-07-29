@@ -1,0 +1,53 @@
+
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h2>align="center">Registration Form</h2>
+        <form action="submit-registration.html">
+            <table>
+                <tr>
+                    <th><label for="username">Username:</label></th>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <th><label for="address">Address:</label></th>
+                    <td><input type="text" id="address" name="address"></td>
+                </tr>
+                <tr>
+                    <th><label for="phone">Phone Number:</label></th>
+                    <td><input type="tel" id="phone" name="phone"></td>
+                </tr>
+                <tr>
+                    <th><label>Gender:</label></th>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label>Languages Known:</label></th>
+                    <td>
+                        <input type="checkbox" id="english" name="languages" value="english">
+                        <label for="english">English</label><br>
+                        <input type="checkbox" id="telugu" name="languages" value="telugu">
+                        <label for="telugu">Telugu</label><br>
+                        <input type="checkbox" id="hindi" name="languages" value="hindi">
+                        <label for="Hindi">Hindi</label><br>
+                        <input type="checkbox" id="tamil" name="languages" value="tamil">
+                        <label for="Tamil">Tamil</label><br>
+                        <input type="checkbox" id="other-language" name="languages" value="other">
+                        <label for="other-language">Other</label>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Register</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </body>
+</html>
